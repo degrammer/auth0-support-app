@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Low",
+        "level": "low",
+        "description": "Product question"
+    },
+    {
+        "id": 2,
+        "title": "Normal",
+        "level": "normal",
+        "description": "General support issues"
+    },
+    {
+        "id": 3,
+        "title": "High",
+        "level": "high",
+        "description": "Production application issue"
+    },  
+    {
+        "id": 4,
+        "title": "Urgent",
+        "level": "urgent",
+        "description": "Production application offline"
+    }
+]

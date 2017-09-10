@@ -1,0 +1,96 @@
+.auth0-sideNav
+{
+    background-color: #f9f9f9;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+}
+
+.auth0-sideNav ul
+{
+  
+  list-style: none;
+}
+
+
+.auth0-sideNav ul li{
+
+    padding:5px;
+}
+
+.auth0-sideNav ul li a
+{
+    color: #5C666F;
+}
+
+.auth0-sideNav ul li a i{
+
+  position: relative;
+    top: 4px;
+    font-size: 16px;
+    margin-right: 4px;
+    width: 17px;
+    display: inline-block;
+}
+
+
+.auth0-sideNav .active a
+{
+    color: #eb5424;
+}
+
+.auth0-sideNav .brand
+{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15%;
+}
+
+.auth0-sideNav .brand .brand__logo
+{
+    width: 110px;
+    height: 40px;
+    background: url('./auth0-logo.png') no-repeat;
+    display: inline-block;
+    margin-top: 5px;
+    background-size: 70%;
+}
+
+.auth0-sideNav .brand span
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #848484;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    top: 3px;
+    font-weight: bold;
+    margin-left: -16px;
+}
+
+.auth0-sideNav .tool-title
+{
+     text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #848484;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 15%;
+  
+}
+
+.auth0-sideNav .brand a
+{
+    background: none;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
