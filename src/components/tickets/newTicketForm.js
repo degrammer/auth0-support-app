@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import TicketSeverityChooser from './ticketSeverityChooser'
 import TicketDescription from './ticketDescription'
+import RequestSelector from './requestSelector'
 import './style.css'
 
 class NewTicketForm extends Component {
@@ -8,7 +9,7 @@ class NewTicketForm extends Component {
         return (
 
             <div className="auth0-new-ticket-form">
-                <form onSubmit={this.handleSubmit}>
+                <form name="auth0-new-ticket-form" onSubmit={this.handleSubmit}>
                     <h1>New ticket</h1>
                     <div className="auth0-form-item">
                         <label>Subject*</label>
@@ -16,7 +17,7 @@ class NewTicketForm extends Component {
                     </div>
                     <div className="auth0-form-item">
                         <label>Requested by</label>
-                        <input type="text" placeholder="Choose a requester" />
+                      <RequestSelector />
                     </div>
                     <div className="auth0-form-item">
                         <label>Severity</label>
@@ -25,6 +26,15 @@ class NewTicketForm extends Component {
                     <div className="auth0-form-item">
                         <TicketDescription />
                     </div>
+                    <div className="auth0-form-item row">
+                        <div className="col-sm-2">
+                         <div className="btn btn-primary">Submit</div>
+                         </div>
+                           <div className="col-sm-2">
+                             <div className="btn btn-transparent">Cancel</div>
+                             </div>
+                    </div>
+                    
                 </form>
             </div>)
     }

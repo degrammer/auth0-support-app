@@ -10,6 +10,7 @@
 .auth0-authenticated
 {
     list-style: none;
+    position: relative;
 }
 
 .auth0-authenticated li
@@ -19,6 +20,19 @@
       color: rgb(132, 132, 132);
     font-size: 12px;
 }
+
+.auth0-authenticated__help
+{
+    float: left;
+    margin:10px 10px 0px 0px;
+}
+
+.auth0-authenticated__help a
+{
+ 
+    color: #5C666F;
+}
+
 
 
 .auth0-authenticated li a
@@ -36,6 +50,11 @@
 {
   padding: 10px 0 0 2px;
   position: absolute;
-  top: -4px;
+  top: 0px;
   cursor: pointer;
+}
+
+.auth0-authenticated .auth0-user-profile .profile-user-full-name
+{
+    margin-right: 5px;
 }

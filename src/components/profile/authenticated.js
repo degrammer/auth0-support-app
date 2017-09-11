@@ -4,11 +4,11 @@ import profilePic from './profilePic.png'
 
 class Authenticated extends Component {
     render() {
-        return (<ul className="auth0-authenticated">
-            <li> <a href="!#/Help">Help & support</a></li>
-            <li>  <UserProfile userPhoto={profilePic} userFullName="Julieta Curdi" /></li>
+        return (<div className="auth0-authenticated">
+            <div className="auth0-authenticated__help"> <a  href="!#/Help">Help & support</a></div>
+           <UserProfile userPhoto={profilePic} userFullName="Julieta Curdi" />
 
-        </ul>)
+        </div>)
     }
 }
 

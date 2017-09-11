@@ -5,7 +5,8 @@ import './style.css'
 class SideNav extends Component {
 
     render() {
-        return (<div className="auth0-sideNav"><h1 className="brand"><a href="/"><span className="brand__logo"></span><span>Internal Tool</span></a></h1>
+        return (<div className="auth0-sideNav">
+            <h1 className="brand"><a href="/"><span className="brand__logo"></span><span className="brand__internal">Internal Tool</span></a></h1>
             <ul>{this.getInternalToolNavItems()}</ul>
             <h1 className="tool-title">External Tools </h1>
             <ul>{this.getExternalToolNavItems()}</ul>
