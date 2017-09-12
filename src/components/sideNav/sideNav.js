@@ -19,9 +19,9 @@ class SideNav extends Component {
         return (
             [<SideNavItem text="Overview" key="1" icon="icon-budicon-394" />,
             <SideNavItem text="Notifications" key="2" icon="icon-budicon-322"  />,
-            <SideNavItem text="Tenants" key="3" icon="icon-budicon-299"  />,
-            <SideNavItem text="Resource request" key="4" icon="icon-budicon-394"  />,
-            <SideNavItem text="tasks" key="5" icon="icon-budicon-393"  />,
+            <SideNavItem text="Tenants" key="3" icon="icon-budicon-661"  />,
+            <SideNavItem text="Resource request" key="4" icon="icon-budicon-299"  />,
+            <SideNavItem text="tasks" key="5" icon="icon-budicon-693"  />,
             <SideNavItem text="Tickets" selected="true" key="6" icon="icon-budicon-73"  />]
         )
     }
@@ -29,7 +29,7 @@ class SideNav extends Component {
     getExternalToolNavItems() {
 
         return (
-            [<SideNavItem text="Zendesk" key="1" icon="icon-budicon-441"  />,
+            [<SideNavItem text="Zendesk" key="1" icon="icon-budicon-411"  />,
             <SideNavItem text="Salesforce" key="2" icon="icon-budicon-156"  />,
             <SideNavItem text="Forum" key="3" icon="icon-budicon-792"  />,
             <SideNavItem text="Wiki" key="4" icon="icon-budicon-716"   />]

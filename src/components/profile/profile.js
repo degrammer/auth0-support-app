@@ -5,17 +5,23 @@ import './style.css'
 
 
 class Profile extends Component {
+
+    constructor(props) {
+        super(props)      
+        this.getAuthenticatedView = this.getAuthenticatedView.bind(this)
+    }
+
+
     render() {
 
-       
-        return (<div className="auth0-profile">{this.props.status === 'authenticated' ? this.getAuthenticatedView() : this.getUnAuthenticatedView()}</div>)
+        return (<div className="auth0-profile">{this.props.authenticated === true ? this.getAuthenticatedView() : this.getUnAuthenticatedView()}</div>)
     }
 
     getAuthenticatedView() {
 
         return (
 
-            <Authenticated />
+            <Authenticated auth={this.props.auth} />
         )
     }
 
@@ -25,6 +31,7 @@ class Profile extends Component {
             <UnAuthenticated />
         )
     }
+
 }
 
 export default Profile
