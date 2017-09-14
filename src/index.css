@@ -11,3 +11,10 @@ body {
   padding:10px;
   margin-top: 50px;
 }
+
+footer
+{
+  margin-left: 280px;
+  border-top: solid 1px #dbd9d9;
+  margin-top: 50px;
+}

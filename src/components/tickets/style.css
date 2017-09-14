@@ -163,7 +163,7 @@
 
 .ui.dropdown .menu .selected.item, .ui.dropdown.selected
 {
-    background-color: #ebf5ff;
+    background-color: #f5f7f9;
   
 }
 
@@ -187,4 +187,12 @@
     position: absolute;
 }
 
+.btn-primary a
+{
+    color: #fff;
+}
 
+.auth0-ticket-severity-item__selected
+{
+border: solid 2px #9dddf2;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Auth0Spinner from '../elements/auth0Spinner'
 import loading from './loading.svg';
 
 class Callback extends Component {
@@ -14,11 +15,12 @@ class Callback extends Component {
       left: 0,
       right: 0,
       backgroundColor: 'white',
+      marginTop: '20%'
     }
 
     return (
       <div style={style}>
-        <img src={loading} alt="loading"/>
+      <Auth0Spinner option="lg" />
       </div>
     );
   }

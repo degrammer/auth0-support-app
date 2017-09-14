@@ -24,7 +24,7 @@ class Authenticated extends Component {
 
     checkStatus() {
 
-        const { userProfile, getProfile, isAuthenticated, logout } = this.props.auth;
+        const { userProfile, getProfile } = this.props.auth;
 
         if (!userProfile) {
             getProfile((err, profile) => {

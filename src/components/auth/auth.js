@@ -41,7 +41,6 @@ class Auth0 {
     }
 
     setSession(authResult) {
-        debugger;
         // Set the time that the access token will expire at
         let expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime())
         localStorage.setItem('access_token', authResult.accessToken)
