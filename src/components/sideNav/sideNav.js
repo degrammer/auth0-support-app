@@ -22,7 +22,7 @@ class SideNav extends Component {
             <SideNavItem text="Tenants" key="3" icon="icon-budicon-661"  />,
             <SideNavItem text="Resource request" key="4" icon="icon-budicon-299"  />,
             <SideNavItem text="tasks" key="5" icon="icon-budicon-693"  />,
-            <SideNavItem text="Tickets" selected="true" key="6" icon="icon-budicon-73"  />]
+            <SideNavItem text="Tickets" url="/list" selected="true" key="6" icon="icon-budicon-73"  />]
         )
     }
 

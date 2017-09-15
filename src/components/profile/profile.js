@@ -4,6 +4,7 @@ import UnAuthenticated from './unAuthenticated'
 import './style.css'
 
 
+
 class Profile extends Component {
 
     constructor(props) {
@@ -27,7 +28,6 @@ class Profile extends Component {
 
     getUnAuthenticatedView() {
         return (
-
             <UnAuthenticated />
         )
     }

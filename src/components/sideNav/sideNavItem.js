@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class SideNavItem extends Component {
 
     render() {
-        return (<li className={this.getClassName(this.props.selected)}><a><i className={this.getIcon(this.props.icon)}></i>{this.props.text}</a></li>)
+        return (<li className={this.getClassName(this.props.selected)}><a href={this.props.url}><i className={this.getIcon(this.props.icon)}></i>{this.props.text}</a></li>)
     }
 
 

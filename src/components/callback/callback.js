@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Auth0Spinner from '../elements/auth0Spinner'
-import loading from './loading.svg';
 
 class Callback extends Component {
   render() {

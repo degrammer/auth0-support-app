@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
-import NewTicketForm from './newTicketForm'
+import TicketFormContainer from './ticketFormContainer'
 
 
 class Tickets extends Component
 {
      render()
      {
-         return (<div className="auth0-support-container"><NewTicketForm /></div>)
+         return (<div className="auth0-support-container"><TicketFormContainer /></div>)
      }
 }
 

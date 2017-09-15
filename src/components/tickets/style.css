@@ -10,6 +10,19 @@
     margin-top: 20px;
 }
 
+.auth0-tickets-list
+{
+      width: 900px;
+      margin-left: 280px;
+      margin-top: 80px;
+      padding: 20px;
+
+}
+
+.badge-success {
+    background-color: #7ed321;
+}
+
 .auth0-new-ticket-form h1
 {
     font-size: 30px;
@@ -42,6 +55,12 @@
 .clear
 {
     overflow: auto;
+    clear: both;
+}
+
+
+.item-header::after
+{
     clear: both;
 }
 
@@ -98,6 +117,11 @@
     font-weight: bold;
 }
 
+.clear
+{
+    clear: both!important;
+}
+
 .auth0-ticket-severity-item__badge-low
 {
  background-color: #5c666f;
@@ -115,11 +139,21 @@
 
 }
 
+
 .auth0-ticket-severity-item__badge-urgent
 {
  background-color: #eb5526;
 }
 
+
+.auth0-ticket-list-item
+{
+
+    border: solid 1px #f3f3f3;
+    padding: 10px 10px 40px 10px;
+    min-width: 140px;
+    color: #898989;
+}
 
 .auth0-tickets-ticket-description
 {
@@ -195,4 +229,28 @@
 .auth0-ticket-severity-item__selected
 {
 border: solid 2px #9dddf2;
+}
+
+.alert
+{
+    display: none;
+}
+
+.auth0-new-ticket-form__success
+{
+    display: block;
+}
+
+
+.empty-tickets
+{
+        text-align: center;
+    background-color: #ecf1f6;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.auth0-ticket-item-details
+{
+    width: 90%;
 }

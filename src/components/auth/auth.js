@@ -11,7 +11,7 @@ class Auth0 {
             redirectUri: AUTH_CONFIG.callbackUrl,
             audience: `https://${AUTH_CONFIG.domain}/userinfo`,
             responseType: 'token id_token',
-            scope: 'openid profile'
+            scope: 'openid profile email'
         })
 
         this.login = this.login.bind(this)
@@ -19,6 +19,8 @@ class Auth0 {
         this.handleAuthentication = this.handleAuthentication.bind(this)
         this.isAuthenticated = this.isAuthenticated.bind(this)
         this.getProfile = this.getProfile.bind(this)
+
+      
     }
 
     login() {
@@ -77,8 +79,10 @@ class Auth0 {
         this.auth0.client.userInfo(accessToken, (err, profile) => {
             if (profile) {
                 this.userProfile = profile;
+                localStorage.setItem("email", profile.email)
+                 localStorage.setItem("nickname", profile.nickname)
             }
-            cb(err, profile);
+            if(cb) cb(err, profile)
         });
     }
 }

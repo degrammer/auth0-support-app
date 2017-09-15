@@ -17,6 +17,7 @@ class TicketSeverityItem extends Component {
                 <div className="auth0-ticket-severity-item_details">
                     <span className="auth0-ticket-severity-item__title">{this.props.title}</span>
                     <p className="auth0-ticket-severity-item__description">{this.props.description}</p>
+                   
                 </div>
             </div>
         )
