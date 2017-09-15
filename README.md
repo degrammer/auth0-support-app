@@ -7,7 +7,7 @@ Auth0 Support Portal SPA.
 /*
 MIT License
 
-Copyright (c) 2016 Ruben Restrepo <rrestrepo@metacode.com.co>
+Copyright (c) 2017 Ruben Restrepo <rubenchorestrepo@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
