@@ -34,7 +34,6 @@ class TicketForm extends Component {
                 <Field
                     label="Subject*"
                     name="subject"
-                    component="input"
                     type="text"
                     component={renderField}
                     placeholder="Give a subject to your ticket"
