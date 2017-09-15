@@ -4,6 +4,9 @@
 
 Auth0 Support Portal SPA.
 
+You can download the Postman API Collection here
+https://www.getpostman.com/collections/177b6a7326b0f0cae32c
+
 /*
 MIT License
 
